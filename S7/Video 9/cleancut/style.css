@@ -1,0 +1,249 @@
+/*
+	Theme Name: cleancut
+	Author: Brad Traversy
+	Author URI: http://www.eduonix.com
+	Description: Simple and elegant Wordpress theme
+	Version: 1.0
+*/
+body{
+  padding-top:50px;
+}
+
+body,h1,h2,h3,h4,h5,h6{
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.showcase{
+  text-align: center;
+  color:#fff;
+  animation-duration: 2s;
+}
+
+.showcase h1{
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 5em;
+  color:#fff;
+}
+
+.showcase p.lead{
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 2em;
+  border-bottom:#ccc solid 1px;
+  padding-bottom:15px;
+}
+
+.showcase a.btn{
+  margin-right:20px;
+}
+
+.showcase-content{
+  width:50%;
+  margin:auto;
+  margin-top:10%;
+}
+
+.section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 10px;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.title-bar{
+  padding:15px 0;
+  border-bottom:#ddd 1px solid;
+}
+
+.title-bar h1{
+  margin:0;
+  padding:0;
+}
+
+.sub-nav ul{
+  float:right;
+  padding-top:10px;
+  list-style: none;
+}
+
+.sub-nav li{
+  float:left;
+  padding-right:15px;
+  padding-left:15px;
+  border-right:1px #ccc solid;
+}
+
+.sub-nav li:last-child{
+  border:0;
+}
+
+.page{
+  padding:20px 0;
+}
+
+.page .post-thumbnail img{
+  width:100%;
+  margin-bottom:25px;
+  height:auto;
+}
+
+.boxed-content.left-aligned {
+    text-align: left;
+}
+
+.boxed-content {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.boxed-content.left-aligned i {
+    float: left;
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+.boxed-content.left-boxed-icon i {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background: #406da4;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.boxed-content .boxed-content-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.boxed-content.left-aligned .boxed-content-title {
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.boxed-content.left-boxed-icon .boxed-content-title, .boxed-content.left-boxed-icon p {
+    padding-left: 80px;
+}
+
+.bottom-menu{
+  background:#f4f4f4;
+  padding:5px;
+  border-bottom:1px #ccc solid;
+  border-top:1px #ccc solid;
+  overflow: auto;
+}
+
+.bottom-menu li{
+  float:left;
+  list-style: none;
+  padding-right:20px;
+  font-size:18px;
+}
+
+.meta{
+  margin-bottom:10px;
+  font-weight: bold;
+  border-top:#ccc solid 1px;
+  border-bottom:#ccc solid 1px;
+  padding:5px;
+}
+
+.excerpt p{
+  font-size:18px;
+  font-weight:400;
+}
+
+
+.comments{
+    border:1px #ccc solid;
+    padding:10px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.comments h3, .comments h2{
+  background:#f4f4f4;
+  color:#333;
+  padding:5px;
+}
+
+.comment-body{
+  border:#ccc 1px solid;
+  margin-bottom:10px;
+  padding:20px 10px;
+}
+
+
+.comment-meta{
+  background:#333;
+  color:#fff;
+  padding:10px;
+  overflow:auto;
+}
+
+.comment-meta img{
+  float:left;
+  margin-right:10px;
+}
+
+.comment-meta time{
+  margin-left:12px;
+}
+
+.comment-reply-link{
+  background:#333;
+  color:#fff;
+  display:inline-block;
+  padding:10px 15px;
+}
+
+.comment-form input,.comment-form textarea{
+  width:100%;
+  padding:3px;
+  border:#ccc 1px solid;
+  margin-bottom:20px;
+}
+
+.current_page_item, .current-cat{
+  font-weight:bold;
+}
