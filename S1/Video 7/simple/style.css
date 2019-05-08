@@ -1,0 +1,136 @@
+/*
+	Theme Name: Simple
+	Author: Brad Traversy
+	Author URI: http://eduonix.com
+	Description: Very Simple Wordpress Theme
+	Version: 1.0
+*/
+
+body{
+	font-family: Arial;
+	font-size:15px;
+	color:#333;
+	background:#f4f4f4;
+	margin:0;
+	padding:0;
+	line-height: 1.7em;
+}
+
+a{
+	color:#333;
+}
+
+header{
+	background: #393939;
+	color:#fff;
+	padding:20px 10px;
+}
+
+header h1{
+	color:#fff;
+	margin:0;
+	padding:0;
+	padding-bottom: 10px;
+}
+
+.container{
+	width:1020px;
+	margin:0 auto;
+	overflow:auto;
+}
+
+.clr{
+	clear:both;
+}
+
+.main{
+	margin:15px 0;
+	float:left;
+	width:68%;
+}
+
+.sidebar{
+	float:right;
+	width:28%;
+}
+
+footer{
+	background: #393939;
+	color:#fff;
+	padding:10px 10px;
+	text-align: center;
+}
+
+article.post{
+	border-bottom:1px #ccc solid;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+
+article.post a.button{
+	display:inline-block;
+	background:#333;
+	color:#fff;
+	padding:10px 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.meta{
+	background:#333;
+	color:#fff;
+	padding:5px;
+}
+
+.meta a{
+	color:#fff;
+}
+
+.post-thumbnail img{
+	width:100%;
+	height:auto;
+}
+
+.main-nav{
+	background:#000;
+	color:#fff;
+	padding:5px;
+}
+
+.main-nav ul{
+	margin:0;
+	padding:0;
+}
+
+.main-nav li{
+	list-style: none;
+	float:left;
+	padding-right:15px;
+}
+
+.main-nav a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.side-widget{
+	border:1px #ccc solid;
+	padding:10px 10px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.side-widget ul{
+	padding:0;
+	margin:0;
+}
+
+.side-widget li{
+	list-style: none;
+	line-height:2.2em;
+	border-bottom:dotted 1px #ccc;
+}
+
+.side-widget a{
+	text-decoration: none;
+}
